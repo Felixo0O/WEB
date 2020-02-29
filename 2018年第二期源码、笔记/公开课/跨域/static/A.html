@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>珠峰培训</title>
+</head>
+<body>
+<!--A：http://v.qq.com:8000/A.html-->
+<iframe src="http://s.qq.com:8000/B.html" frameborder="0" id="iframeBox"></iframe>
+
+<script>
+    document.domain = 'qq.com';
+    iframeBox.onload = () => {
+        console.log(iframeBox.contentWindow.data);
+    };
+</script>
+</body>
+</html>
