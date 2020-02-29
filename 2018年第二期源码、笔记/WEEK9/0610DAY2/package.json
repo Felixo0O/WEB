@@ -1,0 +1,16 @@
+{
+  "name": "0610DAY2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mime": "^2.3.1",
+    "qs": "^6.5.2"
+  }
+}
