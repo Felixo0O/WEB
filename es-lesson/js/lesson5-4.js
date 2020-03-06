@@ -1,0 +1,15 @@
+// console.log(/foo.bar/us.test('foo\nbar'))
+// const re = /foo.bar/sugi
+// console.log(re.dotAll)
+// console.log(re.flags)
+// const t = '2019-06-07'.match(/(\d{4})-(\d{2})-(\d{2})/)
+// console.log(t[1])
+// console.log(t[2])
+// console.log(t[3])
+// const t = '2019-06-07'.match(/(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})/)
+// console.log(t.groups.year)
+// console.log(t.groups.month)
+// console.log(t.groups.day)
+let test = 'hello world'
+console.log(test.match(/hello(?=\sworld)/))
+console.log(test.match(/(?<!helle\s)world/))
